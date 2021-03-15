@@ -1,3 +1,7 @@
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CGBase.h>
+#import <CoreGraphics/CGGeometry.h>
+#import <IOSurface/IOSurfaceRef.h>
 #include <errno.h>
 #include <substrate.h>
 #include <rfb/rfb.h>
