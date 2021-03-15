@@ -1,5 +1,8 @@
 #!/bin/bash
 
+chown root:wheel /Library/LaunchDaemons/com.julioverne.screendumpd.plist
+chmod 644 /Library/LaunchDaemons/com.julioverne.screendumpd.plist
+
 launchctl unload //Library/LaunchDaemons/com.julioverne.screendumpd.plist
 launchctl load //Library/LaunchDaemons/com.julioverne.screendumpd.plist
 
